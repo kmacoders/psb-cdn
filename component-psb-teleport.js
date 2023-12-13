@@ -1,0 +1,1 @@
+!function(){class t extends HTMLElement{constructor(){super(),this.config={to:this.getAttribute("data-to")||""},this.init()}init(){const t=document.getElementById(this.config.to);t&&this&&(t.innerHTML="",t.appendChild(this.firstElementChild))}}customElements.define("psb-teleport",t)}();
